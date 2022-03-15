@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    justify-items: center;
+    align-items: center;
+    z-index: 100;
+    height: 100%;
+    border-bottom: 1px solid rgba(128, 26, 224, 0.705);
+}
+
+.header {
+    position: fixed;
+    height: 15vh;
+    z-index: 100;
+    background-color: beige;
+}
+
+.main {
+    background-color: black;
+    padding-top: 6vh;
+}
+
+.carousel-item {
+    height: 92vh;
+}
+
+.contenedor__img {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+
+
+
+/* media querys */
+
+@media screen and (min-width: 425px) {
+    .carousel-caption {
+        
+    }
+}
