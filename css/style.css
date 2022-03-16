@@ -4,43 +4,134 @@
     box-sizing: border-box;
 }
 
+.body {
+    max-width: 100vw;
+    background-color: rgb(135, 67, 86);
+}
+/*  N A V  */
+.navbar-mod {
+    font-family: 'Bebas Neue';
+    font-size: 1.5rem;
+    max-width: 100vw;
+    z-index: 1;
+    background-color: rgb(217, 202, 179);
+    padding-left: 10vh;
+}
+.fixed-top {
+    width: 100%;
+}
+.navbar-light {
+    background-color: rgb(217, 202, 179);
+    color: black;
+    border-bottom: 1px solid rgb(152, 109, 142);
+}
+.nav-item {
+    color: black;
+}
+.nav-item a {
+    padding: 18px;
+}
+.navbar-brand {
+    font-size: 2rem;
+    margin-right: 35%;
+}
 .navbar {
-    justify-items: center;
-    align-items: center;
-    z-index: 100;
     height: 100%;
-    border-bottom: 1px solid rgba(128, 26, 224, 0.705);
+    height: 12vh;
 }
 
-.header {
-    position: fixed;
-    height: 15vh;
-    z-index: 100;
-    background-color: beige;
+.nav1 {
+    color: rgb(101, 93, 138);
+    font-weight: bold;
+    font-size: 2.3rem;
 }
 
+.navbar-collapse {
+    margin-top: auto;
+}
+
+.dropdown-item {
+    font-size: 1.2rem;
+}
+
+
+/* I N D E X  */
 .main {
-    background-color: black;
-    padding-top: 6vh;
+    background-color: rgb(135, 168, 164);
+    margin-top: 12vh;
 }
 
 .carousel-item {
-    height: 92vh;
+    height: 88vh;
 }
 
 .contenedor__img {
     display: flex;
     height: 100%;
     justify-content: center;
+    border: 0 1px solid black;
+}
+
+.btn {
+    background-color: rgb(101, 93, 138);
+    border-color: rgb(135, 168, 164);
+}
+.row h1 {
+    padding-top: 1vh;
+}
+.nav-item a{
+    padding-bottom: 2vh;
+}
+
+/* .carousel-caption {
+    background-color: antiquewhite;
+    border-radius: 2rem;
+} */
+
+/* P O R T A F O L I O */
+
+.nav-link {
+    color: black;
+}
+/* F O T E R */
+
+.footer-mod {
+    background-color: rgb(101, 93, 138);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border-top:  1px solid rgb(152, 109, 142);
+    color: rgb(135, 168, 164);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__rrss {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.footer__rrss i{
+    color: rgb(135, 67, 86);
+}
+
+.footer__texto {
+    text-align: center;
+    
 }
 
 
-
-
+.footer__texto h2 {
+    font-size: 1.5rem;
+    padding-top: 0.8vh;
+}
 /* media querys */
 
 @media screen and (min-width: 425px) {
-    .carousel-caption {
-        
-    }
+    
 }

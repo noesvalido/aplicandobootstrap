@@ -11,43 +11,44 @@
     
     <title>Aplicando bootstrap</title>
 </head>
-<body>
+<body class="body container justify-content-center px-0">
 <!-- H E A D E R -->
-    <header class="header container-fluid px-0">
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">N1xWare</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-             </button>
-        
-              <div class="collapse navbar-collapse" id="navbarsExample04">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">PORTAFOLIO</a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdown04">
-                      <li><a class="dropdown-item" href="#">Categoria 1</a></li>
-                      <li><a class="dropdown-item" href="#">Categoria 2</a></li>
-                      <li><a class="dropdown-item" href="#">Categoria 3</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">SOBRE MI</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">CONTACTO</a>
-                  </li>
-                </ul>
-              </div>
+    <header class="header fixed-top container-fluid ">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-xl navbar-mod">
+            <a class="navbar-brand" href="#">N<span class="nav1">1</span>xWare</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExample07XL">
+              <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">PORTAFOLIO</a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
+                    <li><a class="dropdown-item" href="pages/portafolio.html">CATEGORIA 1</a></li>
+                    <li><a class="dropdown-item" href="pages/portafolio.html">CATEGORIA 2</a></li>
+                    <li><a class="dropdown-item" href="pages/portafolio.html">CATEGORIA 3</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/sobre_mi.html">SOBRE MI</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
+                </li>
+              </ul>
             </div>
-          </nav>
+          </div>
+        </nav>
+      </div>
     </header>
 
 <!--  M A I N -->
-    <main class="main">
+    <main class="main container-fluid px-0">
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
@@ -57,37 +58,38 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="contenedor__img">
-                <img src="img/imgprincipalmobile.jpeg" class="bd-placeholder-img center" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" alt="">
-                <rect height="100%" fill="#777"></rect>
+                <img src="img/portafolioDestacado.jpeg" class="bd-placeholder-img center" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" alt="">
               </div>
         
                 <div class="container">
                   <div class="carousel-caption text-start">
-                    <h1>Example headline.</h1>
+                    <h1>Categoria 1</h1>
                     <p>Some representative placeholder content for the first slide of the carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="pages/portafolio.html">Ver mas</a></p>
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="https://via.placeholder.com/1920x1080" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
-        
+                <div class="contenedor__img">
+                  <img src="img/portafolioDestacado1.jpeg" class="bd-placeholder-img center" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" alt="">
+                </div>
                 <div class="container">
                   <div class="carousel-caption">
-                    <h1>Another example headline.</h1>
+                    <h1>Categoria 2</h1>
                     <p>Some representative placeholder content for the second slide of the carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="pages/portafolio.html">Ver mas</a></p>
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="https://via.placeholder.com/1920x1080" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
-        
+                <div class="contenedor__img">
+                  <img src="img/portafolioDestacado2.jpeg" class="bd-placeholder-img center" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" alt="">
+                </div>
                 <div class="container">
                   <div class="carousel-caption text-end">
-                    <h1>One more for good measure.</h1>
+                    <h1>Categoria 3</h1>
                     <p>Some representative placeholder content for the third slide of this carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="pages/portafolio.html">Ver mas</a></p>
                   </div>
                 </div>
               </div>
@@ -104,19 +106,19 @@
     </main>
 
     <!--  F O O T E R  -->
-    <div class="container-fluid px-0">
+    <div class="footer-mod container-fluid px-0">
       <div class="row">
         <div class="col-12">
           <footer class="footer">
-            <div class="footer__texto">
+            <div class="footer__texto pt-2">
                 <h2>Marca Desconocida</h2>
             </div>
-            <div class="footer__rrss">
+            <div class="footer__rrss py-0">
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-whatsapp"></i>
                 <i class="fa-brands fa-pinterest"></i>
             </div>
-            <p>Todos los derechos reservados. 2022</p>
+            <p class="py-2">Todos los derechos reservados. 2022</p>
         </footer>
         </div>
       </div>
@@ -125,5 +127,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
 </body>
 </html>
